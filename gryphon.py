@@ -3,6 +3,12 @@ import os
 import numpy
 import statistics
 
+# Enable test mode
+testMode = False
+
+# Version string
+versionString = "v1.0.0"
+
 # Class defining a set of measurements (single row of input file)
 class DataSet(object):
     
@@ -109,8 +115,8 @@ class MeasurementGroup(object):
 ## Script begins here ##
 ########################
 
-# Enable test mode
-testMode = False
+# State the version
+print("**** Gryphon Outlier Removal: {} ****".format(versionString))
 
 # Load the file
 if testMode != True:
