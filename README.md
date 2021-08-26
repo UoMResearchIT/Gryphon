@@ -6,6 +6,7 @@ v1.0.0 -- Initial release.
 
 ## Prerequisites
  - [Python 3](https://www.python.org/downloads/) must be installed to run this script.
+ - You will need to have the `numpy` library installed which you can install using `pip` which comes with most Python installers.
  - Your input file must be prepared so it conforms with the [Input File Format](#input-format).
  - The input file directory must also be writable by the script to allow creation of the output file.
 
